@@ -1,7 +1,27 @@
 fileFormatVersion: 2
 guid: 2b409c6d5f209844fbb661e4a55b2d82
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Shadow_Edge-Long-Vert_UpLeft
+    21300002: Shadow_Edge-Round_UpLeft
+    21300004: Shadow_Edge-Round_LowLeft
+    21300006: Shadow_Edge-Round_LowRight
+    21300008: Shadow_Edge-Round_UpRight
+    21300010: Shadow_Edge-Long-Vert_UpRight
+    21300012: Shadow_Edge-Short_UpLeft
+    21300014: Shadow_Tile_Wide
+    21300016: Shadow_Edge-Short_UpRight
+    21300018: Shadow_Edge-Long-Horz_UpLeft
+    21300020: Shadow_Tile_Large
+    21300022: Shadow_Tile_Long
+    21300024: Shadow_Tile_Small
+    21300026: Shadow_Edge-Long-Horz_UpRight
+    21300028: Shadow_Edge-Long-Vert_LowLeft
+    21300030: Shadow_Edge-Short_LowLeft
+    21300032: Shadow_Edge-Long-Horz_LowRight
+    21300034: Shadow_Edge-Short_LowRight
+    21300036: Shadow_Edge-Long-Vert_LowRight
+    21300038: Shadow_Edge-Long-Horz_LowLeft
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
