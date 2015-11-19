@@ -2,7 +2,8 @@
 var Turn : float; 
 
 function Update (){
-
+	Speed+=.5;
+	Debug.Log("shooting missile...");
    	var targets: GameObject[] = GameObject.FindGameObjectsWithTag("Enemy");
     var closest: GameObject;
     var ClosestDist = Mathf.Infinity;
@@ -23,9 +24,15 @@ function Update (){
  	transform.position+=transform.forward*Speed*Time.deltaTime;
 
 }
-
+/*
 function OnCollisionEnter(collision : Collision){
+	Debug.Log("destroy missile");
+	var prefab : GameObject = GameObject.FindWithTag("explode");
+	var explosion = Instantiate (prefab) as GameObject;
+		explosion.transform.position = transform.position;
 
+		Destroy (explosion, 5);
+		Destroy (gameObject);
     Destroy (gameObject);
 
-}
+} */
