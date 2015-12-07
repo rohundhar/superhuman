@@ -11,7 +11,7 @@ function Awake(){
 
 function Start(){ 
 	playerObject = GameObject.FindWithTag("Player");
-	playerPostion = playerObject.transform.position;
+	playerPosition = playerObject.transform.position;
 	target = GameObject.FindWithTag("Player").transform; 
 }
 

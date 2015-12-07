@@ -10,7 +10,7 @@ public class ProjectileShooter : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetMouseButtonDown (0)) {
+		if (Input.GetMouseButtonDown(0)) {
 			Debug.Log("Projectile activated");
 			GameObject projectile = Instantiate (prefab) as GameObject;
 			projectile.transform.position = transform.position + Camera.main.transform.forward * 2;

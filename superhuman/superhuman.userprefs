@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\Example 2\Assets\Chase.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\homing.js">
     <Files>
-      <File FileName="..\..\..\..\Example 2\Assets\Chase.js" Line="9" Column="27" />
+      <File FileName="Assets\ExplodingProjectile.cs" Line="55" Column="2" />
+      <File FileName="Assets\ProjectileShooter.cs" Line="1" Column="1" />
+      <File FileName="Assets\CreateMissile.js" Line="1" Column="1" />
+      <File FileName="Assets\homing.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

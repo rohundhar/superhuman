@@ -234,8 +234,25 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void RotateView()
         {
+			//transform.rotation = Quaternion.Slerp(transform.rotation, cameraBase * 
+			  //                                    ( ConvertRotation(referanceRotation * Input.gyro.attitude) * GetRotFix()), lowPassFilterFactor);
             m_MouseLook.LookRotation (transform, m_Camera.transform);
         }
+
+		//CHANGE
+		/*private Quaternion GetRotFix()
+		{
+			if (Screen.orientation == ScreenOrientation.Portrait)
+				return Quaternion.identity;
+			if (Screen.orientation == ScreenOrientation.LandscapeLeft
+			    || Screen.orientation == ScreenOrientation.Landscape)
+				return Quaternion.Euler(0, 0, -90);
+			if (Screen.orientation == ScreenOrientation.LandscapeRight)
+				return Quaternion.Euler(0, 0, 90);
+			if (Screen.orientation == ScreenOrientation.PortraitUpsideDown)
+				return Quaternion.Euler(0, 0, 180);
+			return Quaternion.identity;
+		}*/
 
 
         private void OnControllerColliderHit(ControllerColliderHit hit)
