@@ -45,13 +45,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ChasePlayer.js" />
-     <Compile Include="Assets\CreateMissile.js" />
-     <Compile Include="Assets\EnemyHandler.js" />
-     <Compile Include="Assets\HealthBar 1.js" />
-     <Compile Include="Assets\HealthBar.js" />
-     <Compile Include="Assets\RadiationBar.js" />
-     <Compile Include="Assets\homing.js" />
+     <Compile Include="Assets\Scripts\ChasePlayer.js" />
+     <Compile Include="Assets\Scripts\CreateMissile.js" />
+     <Compile Include="Assets\Scripts\EnemyHandler.js" />
+     <Compile Include="Assets\Scripts\GameController.js" />
+     <Compile Include="Assets\Scripts\Health.js" />
+     <Compile Include="Assets\Scripts\ProjectileShooter.js" />
+     <Compile Include="Assets\Scripts\RadiationBar.js" />
+     <Compile Include="Assets\Scripts\homing.js" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
      <None Include="Assets\3D Pixel Tiles\2D Pixel Tileset\!Read Me! - On Layers and Tags.txt" />
      <None Include="Assets\3D Pixel Tiles\2D Pixel Tileset\Scene\!Read Me! - Level.txt" />
@@ -60,6 +61,7 @@
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\3D Pixel Tiles\2D Pixel Tileset\Extras\!Read Me! - Notes on Scripts.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

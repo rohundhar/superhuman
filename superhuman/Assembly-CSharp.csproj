@@ -50,9 +50,14 @@
      <Compile Include="Assets\3D Pixel Tiles\Scripts\WaterAnimSpeed.cs" />
      <Compile Include="Assets\3D Pixel Tiles\Unity Scripts\Utility Scripts\CombineChildren.cs" />
      <Compile Include="Assets\3D Pixel Tiles\Unity Scripts\Utility Scripts\MeshCombineUtility.cs" />
-     <Compile Include="Assets\ExplodingProjectile.cs" />
-     <Compile Include="Assets\ProjectileShooter.cs" />
-     <Compile Include="Assets\Scripts\GyroController.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\ControlGUIScript.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\GUIBarScript.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\MoreButtonScript.cs" />
+     <Compile Include="Assets\GradientGUIBars\Script\MoveCameraScript.cs" />
+     <Compile Include="Assets\Scripts\ExplodingProjectile.cs" />
+     <Compile Include="Assets\Scripts\SwipeRotation.cs" />
+     <Compile Include="Assets\Scripts\TouchLogic.cs" />
+     <Compile Include="Assets\SwipeRotation1.cs" />
      <Compile Include="Assets\WorldBuilder\Scripts\Heightmapbuilder.cs" />
      <Compile Include="Assets\WorldBuilder\Scripts\Helpers\Threading.cs" />
      <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
@@ -66,6 +71,7 @@
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\3D Pixel Tiles\2D Pixel Tileset\Extras\!Read Me! - Notes on Scripts.txt" />
      <None Include="Assets\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
