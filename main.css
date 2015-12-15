@@ -74,13 +74,22 @@ h3{
 	color:grey;
 	font-size: 30px;
 }
-.instruction{
-	text-align: center;
+
+.feature{
+		text-align: center;
 	font-family: "Courier New", Courier, monospace;
 	font-variant: small-caps;
 	font-weight: 200;
 	color:grey;
 	font-size: 30px;
+}
+.instruction{
+	font-family: "Courier New", Courier, monospace;
+	font-variant: small-caps;
+	font-weight: 200;
+	color:grey;
+	font-size: 30px;
+	text-align: center;
 }
 
 .mainlink{
@@ -91,7 +100,7 @@ h3{
 #link1{
 	position: absolute;
 	left:550px;
-	top:500px;
+	top:530px;
 }
 
 #image1{
@@ -100,6 +109,7 @@ h3{
 	top:250px;
 	width: 300px;
 	height: 250px;
+	border:1px solid #021a40;
 
 }
 
@@ -109,6 +119,7 @@ h3{
 	top:250px;
 	width: 300px;
 	height: 250px;
+	border:1px solid #021a40;
 
 }
 
@@ -119,10 +130,55 @@ h3{
 	top:250px;
 	width: 300px;
 	height: 250px;
+	border:1px solid #021a40;
+
+}
+
+#image4{
+	position: absolute;
+	left:100px;
+	top:550px;
+	width: 300px;
+	height: 250px;
+	border:1px solid #021a40;
+
+}
+#image5{
+	position: absolute;
+	left:550px;
+	top:550px;
+	width: 300px;
+	height: 250px;
+	border:1px solid #021a40;
+
+}
+#image6{
+	position: absolute;
+	left:950px;
+	top:550px;
+	width: 300px;
+	height: 250px;
+	border:1px solid #021a40;
 
 }
 #link2{
 	position: absolute;
 	left:700px;
+	top:530px;
+}
+#home{
+	position: absolute;
+	left: 640px
+}
+
+#home2{
+	position: absolute;
+	left: 640px;
+	top:190px;
+}
+
+#home3{
+	position: absolute;
+	left: 640px;
 	top:500px;
 }
