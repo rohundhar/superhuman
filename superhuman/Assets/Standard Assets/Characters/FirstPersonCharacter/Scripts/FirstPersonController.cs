@@ -61,7 +61,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         // Update is called once per frame
         private void Update()
         {
-            RotateView();
+            //RotateView();
             // the jump state needs to read here to make sure it is not missed
             if (!m_Jump)
             {
@@ -235,12 +235,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private void RotateView()
         {
 			//transform.rotation = Quaternion.Slerp(transform.rotation, cameraBase * 
-			  //                                    ( ConvertRotation(referanceRotation * Input.gyro.attitude) * GetRotFix()), lowPassFilterFactor);
-            m_MouseLook.LookRotation (transform, m_Camera.transform);
-        }
+			//                                    ( ConvertRotation(referanceRotation * Input.gyro.attitude) * GetRotFix()), lowPassFilterFactor);
+			m_MouseLook.LookRotation (transform, m_Camera.transform);
+		}
 
-		//CHANGE
-		/*private Quaternion GetRotFix()
+		private Quaternion GetRotFix()
 		{
 			if (Screen.orientation == ScreenOrientation.Portrait)
 				return Quaternion.identity;
@@ -252,7 +251,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 			if (Screen.orientation == ScreenOrientation.PortraitUpsideDown)
 				return Quaternion.Euler(0, 0, 180);
 			return Quaternion.identity;
-		}*/
+		}
 
 
         private void OnControllerColliderHit(ControllerColliderHit hit)

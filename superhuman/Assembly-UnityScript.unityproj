@@ -45,8 +45,25 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\CreditsDisplay.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\Example3D.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\Example3D2.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\Example3DObjects.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ExampleDisplayBackgroundImg.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ExampleGUIBorders.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ExamplePrevNext.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ExampleRotateMatrixes.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ImageDisplay.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ImageDisplayNoFade.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ImageDisplayXYHorizontal.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\ImageDisplayXYVertical.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\SwipeControl.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\SwipeControlFor3D.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\SwipeControlXY.js" />
+     <Compile Include="Assets\BLACKISH\SwipeControl\Scripts\JS\Wait.js" />
      <Compile Include="Assets\Scripts\ChasePlayer.js" />
      <Compile Include="Assets\Scripts\CreateMissile.js" />
+     <Compile Include="Assets\Scripts\EnemyDeath.js" />
      <Compile Include="Assets\Scripts\EnemyHandler.js" />
      <Compile Include="Assets\Scripts\GameController.js" />
      <Compile Include="Assets\Scripts\Health.js" />

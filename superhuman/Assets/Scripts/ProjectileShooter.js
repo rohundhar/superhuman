@@ -5,7 +5,7 @@ private var projectile : GameObject;
 private var rb : Rigidbody;
 
 function Start () {
-	prefab = Resources.Load("projectile");
+	prefab = Resources.Load("Projectile");
 }
 
 function shoot () {

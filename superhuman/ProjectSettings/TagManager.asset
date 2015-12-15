@@ -7,6 +7,10 @@ TagManager:
   - explode
   - ground
   - Enemy
+  - Missile
+  - Projectile
+  - Missle
+  - Joystick
   layers:
   - Default
   - TransparentFX

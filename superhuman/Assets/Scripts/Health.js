@@ -9,12 +9,12 @@
  {
  
      // draw the background:
-     GUI.BeginGroup (new Rect (pos.x, pos.y, size.x, size.y));
-         GUI.Box (Rect (0,0, size.x, size.y),progressBarEmpty);
+     GUI.BeginGroup (new Rect (pos.x, pos.y, 500, 100));
+         GUI.Box (Rect (0,0, 500, 100),progressBarEmpty);
  
          // draw the filled-in part:
-         GUI.BeginGroup (new Rect (0, 0, size.x * barDisplay, size.y));
-             GUI.Box (Rect (0,0, size.x, size.y),progressBarFull);
+         GUI.BeginGroup (new Rect (0, 0, 500 * barDisplay, 100));
+             GUI.Box (Rect (0,0, 500, 100),progressBarFull);
          GUI.EndGroup ();
  
      GUI.EndGroup ();
@@ -28,7 +28,8 @@
      // eg, the loading progress, the player's health, or whatever.
      barDisplay = health;
      if (health < 0) {
-     	Time.timeScale = 0;
+     	health = 1;
+     	Application.LoadLevel("Died");
      }
      
  }

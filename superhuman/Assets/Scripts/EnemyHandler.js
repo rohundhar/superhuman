@@ -8,7 +8,7 @@ var distance : float = 0f;
 var baddieHealth : float = 1f;
 
 function start() {
-	anim = GetComponent("Animator");
+	anim = gameObject.GetComponent("Animator");
 	playerObject = GameObject.FindWithTag("Player");
 	playerPosition = playerObject.transform.position;
 	target = playerObject.transform;
@@ -26,7 +26,7 @@ function Update(){
 	anim.SetFloat("AttackDist", distance);
 	if (distance < 3) {
 		anim.SetBool("HasAttacked", true);
-		//Health.health = Health.health - .005;
+		Health.health = Health.health - .001;
 	}
 
 	transform.LookAt(Vector3(target.position.x, transform.position.y, target.position.z));
@@ -35,6 +35,9 @@ function Update(){
 
 function OnTriggerEnter (hit : Collider) {
      if (hit.gameObject.tag == "Projectile") {
-		baddieHealth = baddieHealth - 1;
+		baddieHealth = baddieHealth - .2;
+     }
+     if (hit.gameObject.tag == "Missile") {
+     	baddieHealth = baddieHealth - .1;
      }
 }

@@ -1,11 +1,13 @@
-﻿var projectile: GameObject;
+﻿#pragma strict
 
-function Start(){
+var prefab : GameObject;
+private var projectile : GameObject;
+private var rb : Rigidbody;
+
+function Start () {
 }
-function shoot_missile(){ 
-	//if (Input.GetKeyDown(KeyCode.E)){ 
-	//	Debug.Log("Missile Activated!");
-		Instantiate(projectile,transform.position + Camera.main.transform.forward * 4, transform.rotation);
-		
-	//}
+
+function shoot () {
+	projectile = Instantiate (prefab);
+	projectile.transform.position = transform.position + Camera.main.transform.forward;
 }

@@ -1,17 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\homing.js">
-    <Files>
-      <File FileName="Assets\Scripts\homing.js" Line="13" Column="1" />
-      <File FileName="Assets\Scripts\ProjectileShooter.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\CrossPlatformInput\Scripts\TouchPad.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SwipeRotation.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ExplodingProjectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\EnemyHandler.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Health.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\TouchLogic.cs" Line="42" Column="27" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
