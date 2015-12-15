@@ -1,0 +1,7 @@
+Resources:
+
+-The Monster3 prefab by BUMSTRUM was used as the enemy
+-The 3D Pixel Tiles asset by Perpetual Diversion was used for the terrain in
+ the first level
+-The Simple Joystick Unity 4.6+ asset by Babilin Applications was used for the
+ joystick movement 
