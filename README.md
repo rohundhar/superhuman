@@ -22,4 +22,4 @@ NOTES:
 
 
 Website:
-http://rohundhar.github.io/superhuman
+http://rohundhar.github.io/superhuman/
